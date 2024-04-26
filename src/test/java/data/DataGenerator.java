@@ -64,7 +64,7 @@ public class DataGenerator {
         // TODO: добавить логику для объявления переменной city и задания её значения, генерацию можно выполнить
         // с помощью Faker, либо используя массив валидных городов и класс Random
         Random random = new Random();
-        String[] cities = {"Мск", "Питер", "Смра"};
+        String[] cities = {"первый", "второй", "третий"};
         int index = random.nextInt(cities.length);
         return (cities[index]);
     }
